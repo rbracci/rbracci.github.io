@@ -1,0 +1,68 @@
+*{
+	margin:0;
+}
+
+header h1{
+	background-color: yellow;
+	text-align: right;
+	padding:25px, 0px;
+}
+
+#content {
+	background-color: #545649;
+	width: 90%;
+}
+
+#content p{
+	width:70%;
+}
+
+#content ul {
+	text-align: center;
+	list-style: none;
+}
+
+nav ul {
+	text-align: center;
+    list-style-type: none;
+    background-color: green; 
+
+}
+nav li {
+	display: inline-block;
+    background-color: black;
+    width: 150px;
+    padding:10px;
+}
+
+nav a {
+	color:white;
+}
+
+body {
+	background-color: gray;
+}
+
+#wrap{
+background-color: green;
+margin-right: 100px;
+margin-left: 100px;
+}
+
+aside{
+position:relative;
+right:0;
+background-color:white;
+background-image: url("http://www.literarygenius.info/images/william-shakespeare.jpg");
+background-size: 175px;
+background-repeat: no-repeat;
+background-position:center;
+float: right;
+padding-bottom: 283px;
+
+}
+
+footer{
+	background-color:green;
+	padding: 20px;
+}
