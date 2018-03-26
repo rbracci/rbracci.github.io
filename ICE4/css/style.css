@@ -1,4 +1,5 @@
 /*-----MAIN-----*/
+/*-----MAIN-----*/
 html {
   box-sizing: border-box;
 }
@@ -85,16 +86,16 @@ header{
 .top-nav ul{
 	list-style-type: none;
 	padding: 0;
-	background-color: #211D24; /*CHANGE*/
+	background-color: black; /*CHANGE*/
 	margin: 0;
 	display: block;
 }
 .top-nav ul li, .menu-icon{
-	border-top: 1px solid #DDDDDA; /*CHANGE*/
+	border-top: 1px solid blue; /*CHANGE*/
 }
 .top-nav ul li a{
 	font-size: 1em;
-	color: #DDDDDA; /*CHANGE*/
+	color: gray; /*CHANGE*/
 	text-decoration: none;
 	padding: .5em 1em;
 	display: block;
@@ -102,7 +103,7 @@ header{
 }
 .menu-icon a{
 	font-size: 1em;
-	color: #DDDDDA; /*CHANGE*/
+	color: black; /*CHANGE*/
 	text-decoration: none;
 	padding: .5em 1em;
 	display: block;
@@ -138,7 +139,7 @@ header{
 
 /*-----LOGO-----*/
 .logo{
-	background-color: #211D24; /*CHANGE*/
+	background-color: gray; /*CHANGE*/
 	margin: 0;
 	text-align: center;
 	padding: .25em .75em;
@@ -198,15 +199,4 @@ footer p{
   	display: block;
   	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
 }
-/*@media only screen and (min-width: 650px) {
-	.top-nav ul li{
-		display:inline-block;
-	}
 
-	.top-nav ul {
-		text-align: center;
-		}
-	body{
-		background-color: white;
-	}
-}*/
