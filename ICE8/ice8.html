@@ -3,6 +3,7 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Employment Application Form</title>
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<h2 id="title"> Your Dream Job Starts Here... </h2>
@@ -113,16 +114,18 @@
 					<option>Driver</option>
 				</optgroup>
 			</select><br>
-			Office Location:
-			<input list="locations" name="locations">
-			<datalist id="locations">
-				<option value="New York">
-				<option value="San Francisco">
-				<option value="Detroit">
-				<option value="Ann Arbor">
-				<option value="Chicago">
-				<option value="Pittsburgh">
-			</datalist><br>
+
+			 <label> Office Location:
+			<select id="locations" class="locations">
+				<option value=" "> </option>
+				<option value="NY">New York</option>
+				<option value="San Francisco">San Francisco</option>
+				<option value="Detroit">Detroit</option>
+				<option value="Ann Arbor">Ann Arbor</option>
+				<option value="Chicago">Chicago</option>
+				<option value="Pittsburgh">Pittsburgh</option>
+			</select></label><br>
+			
 			Expected Start Date: <input type="date" name="startdate"><br>
 			Expected Salary: $<input type="range" name="salary" min="40" max="200" step="5" value="100" onchange="updateSalary(this)"><br/><span id="salary"></span>
 			<br>

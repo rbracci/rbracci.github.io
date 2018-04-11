@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+
+h2 {
+    font-family: serif;
+    font-weight: : 600px;
+    color: darkblue;
+}
+
+legend {
+	color:darkblue;
+	font-size: 20px;
+	font-weight: 500px;
+
+}
+
+h4{
+	color:darkblue;
+}
