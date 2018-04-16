@@ -1,0 +1,29 @@
+
+
+.background{
+  background-image: url(images/background.jpg);
+}
+
+.about__img-file {
+    width: 40%;
+}
+
+.box {
+  display: inline-block;
+  width: 49%;
+  border: 5px solid blue;
+  padding: 5%;
+
+}
+
+@media only screen and (max-width: 649px){
+    .response h1 {
+        font-size: 25px;
+        color: red;
+        background-color: blue;
+    }
+}
+
+
+
+
